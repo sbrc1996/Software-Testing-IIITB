@@ -20,14 +20,16 @@ public class CombinationSum {
             ds.remove(ds.size() - 1);
         }
     }
-    public void combinationSum2(int[] candidates, int target) {
+    public List <List<Integer>> combinationSum2(int[] candidates, int target) {
         List < List < Integer >> ans = new ArrayList < > ();
         Arrays.sort(candidates);
         findCombinations(0, candidates, target, ans, new ArrayList < > ());
 
-        for(List<Integer> l : ans){
-            System.out.print(l+" , ");
-        }
+//        for(List<Integer> l : ans){
+//            System.out.print(l+" , ");
+//        }
+
+        return ans;
 
     }
 }

@@ -15,13 +15,14 @@ public class AllPossibleParenthesis {
             generateValidParenthesis(n,opening,closing+1,ans+")",list);
     }
 
-    public void generateParenthesis(int n) {
+    public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
         generateValidParenthesis(n,0,0,"",list);
 
-        for(String s : list){
-            System.out.print(s + ", ");
-        }
+//        for(String s : list){
+//            System.out.print(s + ", ");
+//        }
+        return list;
     }
 
 }

@@ -63,14 +63,20 @@ public class Main {
         System.out.println("Given an integer generate all possible balanced parenthesis..");
         AllPossibleParenthesis app = new AllPossibleParenthesis();
         int value = 3;
-        app.generateParenthesis(value);
+        List<String> list = app.generateParenthesis(value);
+        for(String s : list){
+            System.out.print(s + ", ");
+        }
         System.out.println();
 
         System.out.println("Given candidates and a target find all the unique combinations to generate sum of target.");
         int[] candidates = {10,1,2,7,6,1,5};
         int target = 8;
         CombinationSum cs = new CombinationSum();
-        cs.combinationSum2(candidates,target);
+        List <List<Integer>> ll = cs.combinationSum2(candidates,target);
+        for(List<Integer> l : ll){
+            System.out.print(l+" , ");
+        }
         System.out.println();
 
         ArrayList <ArrayList< Integer >> adj = new ArrayList < > ();
@@ -109,9 +115,10 @@ public class Main {
 
         System.out.println("Print the Fibonacci Value for a given number");
         Fibonacci fib = new Fibonacci();
-        int[] dp = new int[13];
+        int fibValue = 5;
+        int[] dp = new int[fibValue+1];
         Arrays.fill(dp,-1);
-        System.out.println(fib.f(12,dp));
+        System.out.println(fib.f(fibValue,dp));
 
         System.out.println("Count the Total Number of ways to Bottom Right Corner..");
         GridUniquePaths gup = new GridUniquePaths();
