@@ -3,8 +3,7 @@ package org.example;
 import java.util.ArrayList;
 
 public class DFS {
-    public void dfs(int node, boolean vis[], ArrayList<ArrayList<Integer>> adj,
-                           ArrayList<Integer> ls) {
+    public void dfs(int node, boolean vis[], ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ls) {
 
         //marking current node as visited
         vis[node] = true;
