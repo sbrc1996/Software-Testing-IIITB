@@ -130,7 +130,35 @@ public class Main {
         System.out.println(gup.mazeObstacles(row,col,maze));
 
 
+        System.out.println("Prims Algorithm to Design a Minimum Spanning Tree..");
+        int V = 5;
+        ArrayList<ArrayList<ArrayList<Integer>>> adjGraph = new ArrayList<ArrayList<ArrayList<Integer>>>();
+        int[][] edges =  {{0, 1, 2}, {0, 2, 1}, {1, 2, 1}, {2, 3, 2}, {3, 4, 1}, {4, 2, 2}};
 
+        for (int i = 0; i < V; i++) {
+            adjGraph.add(new ArrayList<ArrayList<Integer>>());
+        }
+
+        for (int i = 0; i < edges.length; i++) {
+            int u = edges[i][0];
+            int v = edges[i][1];
+            int w = edges[i][2];
+
+            ArrayList<Integer> tmp1 = new ArrayList<Integer>();
+            ArrayList<Integer> tmp2 = new ArrayList<Integer>();
+            tmp1.add(v);
+            tmp1.add(w);
+
+            tmp2.add(u);
+            tmp2.add(w);
+
+            adjGraph.get(u).add(tmp1);
+            adjGraph.get(v).add(tmp2);
+        }
+
+        PrimsAlgorithm pa = new PrimsAlgorithm();
+        int sum = pa.spanningTree(V,adjGraph);
+        System.out.println("The sum of the weights of the Minimum Spanning Tree is : "+sum);
 
     }
 }
