@@ -114,11 +114,9 @@ public class Main {
         System.out.println("Minimum Number of Minutes Required "+rotting);
 
         System.out.println("Print the Fibonacci Value for a given number");
-        Fibonacci fib = new Fibonacci();
-        int fibValue = 5;
-        int[] dp = new int[fibValue+1];
-        Arrays.fill(dp,-1);
-        System.out.println(fib.f(fibValue,dp));
+        Fibonacci fibbo = new Fibonacci();
+        int fibValue = 9;
+        System.out.println(fibbo.fib(fibValue));
 
         System.out.println("Count the Total Number of ways to Bottom Right Corner..");
         GridUniquePaths gup = new GridUniquePaths();
