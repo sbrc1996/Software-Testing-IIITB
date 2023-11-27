@@ -14,17 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-<!--    <build>-->
-<!--        <pluginManagement>-->
-<!--            <plugins>-->
-<!--                <plugin>-->
-<!--                    <groupId>org.pitest</groupId>-->
-<!--                    <artifactId>pitest-maven</artifactId>-->
-<!--                    <version>1.15.3</version>-->
-<!--                </plugin>-->
-<!--            </plugins>-->
-<!--        </pluginManagement>-->
-<!--    </build>-->
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
