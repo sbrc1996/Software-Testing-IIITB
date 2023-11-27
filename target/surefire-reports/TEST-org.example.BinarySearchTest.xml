@@ -4,17 +4,17 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/subham/Desktop/Software Testing Lab"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/vishal/Desktop/znsdfsdhd/Software-Testing-IIITB"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="user.country" value="US"/>
+    <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/subham/Desktop/Software Testing Lab"/>
+    <property name="user.dir" value="/home/vishal/Desktop/znsdfsdhd/Software-Testing-IIITB"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.20.1+1-post-Ubuntu-0ubuntu122.04"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -32,14 +32,14 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.2.0-36-generic"/>
+    <property name="os.version" value="6.2.0-37-generic"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/subham"/>
+    <property name="user.home" value="/home/vishal"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="subham"/>
+    <property name="user.name" value="vishal"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
