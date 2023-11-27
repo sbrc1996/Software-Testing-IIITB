@@ -1,4 +1,4 @@
-**SOFTWARE TESTING PROJECT: MUTATION & INTEGRATION TESTING **
+**SOFTWARE TESTING PROJECT: MUTATION & INTEGRATION TESTING**
 
 The experiments for Mutation, Unit, and Integration Testing on a Codebase, together with their descriptions, are included in this report. For the purpose of executing and analyzing mutation testing, we utilized a Java codebase and PIT test suite.
 
